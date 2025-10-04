@@ -33,6 +33,7 @@ EMAIL_MAP = {
     "RAAVI VENKATA RAVI": {"to": "venkata.ravi@hangyo.in", "cc": []},
     "ETTA HARSHAVARDHAN REDDY": {"to": "harshavardhan.reddy@hangyo.in", "cc": []},
     "BEVARA VAMSI SAI KRISHNA": {"to": "sai.krishna@hangyo.in", "cc": []},
+    "Bevara Vamsi Sai Krishna": {"to": "sai.krishna@hangyo.in", "cc": []},
     "SARDAR GURUPREET SINGH": {"to": "gurupreet.singh@hangyo.in", "cc": []},
     "DOTI RAMESH": {"to": "ramesh.doti@hangyo.in", "cc": []},
     "RAMCHANDRA KULKARNI": {"to": "ramchandra.k@hangyo.in", "cc": []},
@@ -52,6 +53,7 @@ EMAIL_MAP = {
     "MOHHAMMED IBRAHIM": {"to": "m.ibrahim@hangyo.in", "cc": []},
     "RIZWAN M D": {"to": "rizwan.md@hangyo.in", "cc": []},
     "KRISHNA M A": {"to": "krishna@hangyo.in", "cc": []},
+    "Krishna M A": {"to": "krishna@hangyo.in", "cc": []},
     "MOHAMMED AHMED MOHAMMED ABDUL SHUKOOR": {"to": "m.ahmed@hangyo.in", "cc": []},
     "RAVI KUMAR T": {"to": "ravikumar.t@hangyo.in", "cc": []},
     "TANAY SANJAY KULKARNI": {"to": "tanay.kulkarni@hangyo.in", "cc": []},
@@ -68,6 +70,7 @@ EMAIL_MAP = {
     "TANGATURI VENKATA MASTHAN": {"to": "tv.masthan@hangyo.in", "cc": []},
     "SARAVANAN A": {"to": "saravananhrks@gmail.com", "cc": []},
     "SUNIL BABU N": {"to": "sunilbabu038@gmail.com", "cc": []},
+    "Sunil Babu N": {"to": "sunilbabu038@gmail.com", "cc": []},
     "PANTARANGAM RAJASEKHAR REDDY": {"to": "rajasekharrreddy@gmail.com", "cc": []},
     "BIRARI KISHOR BHALCHANDRA": {"to": "kishorbirari@hangyo.in", "cc": []},
     "KISHOR NATHU THAKARE": {"to": "kt.kishor22@gmail.com", "cc": []},
@@ -596,3 +599,4 @@ if st.button("📤 Bulk Send to All ASMs"):
                 log.append(f"{asm}: ❌ Error {e}")
             prog.progress(i/len(asms))
         st.text_area("Bulk Send Log", "\n".join(log), height=280)
+
