@@ -19,13 +19,13 @@ GRAPH_API_ENDPOINT = f"https://graph.microsoft.com/v1.0/users/{SENDER_EMAIL}/sen
 LOGO_PATH = "hangyo_logo.png"
 
 EMAIL_MAP = {
-    "VIJAYA SEKARAN D": {"to": "vijay.sekaran@hangyo.in", "cc": []},
-    "PRABHAKARAN D": {"to": "prabhakaran.d@hangyo.in", "cc": []},
-    "SASIKUMAR M": {"to": "sasikumar.m@hangyo.in", "cc": []},
-    "SRINIVASAN RAVIKUMAR": {"to": "s.ravikumar@hangyo.in", "cc": []},
-    "SAKTHIVEL R": {"to": "sakthivel.r@hangyo.in", "cc": []},
-    "RAJENDRA H G": {"to": "rajendrahg@hangyo.in", "cc": []},
-    "MALLIKARJUNA N": {"to": "mallikarjun.n@hangyo.in", "cc": []},
+    "VIJAYA SEKARAN D": {"to": "vijay.sekaran@hangyo.in", "cc": ["benjamin@hangyo.in","nishnu.nk@hangyo.in"]},
+    "PRABHAKARAN D": {"to": "prabhakaran.d@hangyo.in", "cc": ["benjamin@hangyo.in","nishnu.nk@hangyo.in"]},
+    "SASIKUMAR M": {"to": "sasikumar.m@hangyo.in", "cc": ["benjamin@hangyo.in","nishnu.nk@hangyo.in"]},
+    "SRINIVASAN RAVIKUMAR": {"to": "s.ravikumar@hangyo.in", "cc": ["benjamin@hangyo.in","nishnu.nk@hangyo.in"]},
+    "SAKTHIVEL R": {"to": "sakthivel.r@hangyo.in", "cc": ["benjamin@hangyo.in","nishnu.nk@hangyo.in"]},
+    "RAJENDRA H G": {"to": "rajendrahg@hangyo.in", "cc": ["benjamin@hangyo.in","nishnu.nk@hangyo.in"]},
+    "MALLIKARJUNA N": {"to": "mallikarjun.n@hangyo.in", "cc": ["benjamin@hangyo.in","nishnu.nk@hangyo.in"]},
     "VINAY KUMAR T S": {"to": "vinaykumar@hangyo.in", "cc": []},
     "VEERESH M": {"to": "veereshm254@gmail.com", "cc": []},
     "MANSURALI KHAN KATTIMANI": {"to": "nk8709468562@gmail.com", "cc": []},
@@ -35,7 +35,7 @@ EMAIL_MAP = {
     "BEVARA VAMSI SAI KRISHNA": {"to": "sai.krishna@hangyo.in", "cc": []},
     "Bevara Vamsi Sai Krishna": {"to": "sai.krishna@hangyo.in", "cc": []},
     "SARDAR GURUPREET SINGH": {"to": "gurupreet.singh@hangyo.in", "cc": []},
-    "DOTI RAMESH": {"to": "ramesh.doti@hangyo.in", "cc": []},
+    "DOTI RAMESH": {"to": "ramesh.doti@hangyo.in", "cc": ["benjamin@hangyo.in","nishnu.nk@hangyo.in"]},
     "RAMCHANDRA KULKARNI": {"to": "ramchandra.k@hangyo.in", "cc": []},
     "AMRESH ANANT PADTE": {"to": "amresh.p@hangyo.in", "cc": []},
     "VIVEK VAMAN KINI": {"to": "vivekkini@hangyo.in", "cc": []},
@@ -47,7 +47,7 @@ EMAIL_MAP = {
     "YASH MONAPPA KULAL": {"to": "yash.kulal@hangyo.in", "cc": []},
     "SHARAD EKNATH SARDAR": {"to": "sharad.sardar@hangyo.in", "cc": []},
     "ANIL BABURAO JADHAV": {"to": "anil.jadhav@hangyo.in", "cc": []},
-    "SARFARAZ HIRAPURE": {"to": "sarfaraz.hirapure@hangyo.in", "cc": []},
+    "SARFARAZ HIRAPURE": {"to": "sarfaraz.hirapure@hangyo.in", "cc": ["benjamin@hangyo.in","nishnu.nk@hangyo.in"]},
     "K RAKESH KAMATH": {"to": "rakeshkamath@hangyo.in", "cc": []},
     "VENKATESH SHIVABODHA PATTAR": {"to": "venkatesh.pattar@hangyo.in", "cc": []},
     "MOHHAMMED IBRAHIM": {"to": "m.ibrahim@hangyo.in", "cc": []},
@@ -56,7 +56,7 @@ EMAIL_MAP = {
     "Krishna M A": {"to": "krishna@hangyo.in", "cc": []},
     "MOHAMMED AHMED MOHAMMED ABDUL SHUKOOR": {"to": "m.ahmed@hangyo.in", "cc": []},
     "RAVI KUMAR T": {"to": "ravikumar.t@hangyo.in", "cc": []},
-    "TANAY SANJAY KULKARNI": {"to": "tanay.kulkarni@hangyo.in", "cc": []},
+    "TANAY SANJAY KULKARNI": {"to": "tanay.kulkarni@hangyo.in", "cc": ["benjamin@hangyo.in","nishnu.nk@hangyo.in"]},
     "KADAM DNYANESHWAR TANAJI": {"to": "dnyaneshwar.kadam@hangyo.in", "cc": []},
     "PRAVEEN ANTHONY": {"to": "praveenanthony@hangyo.in", "cc": []},
     "PRADEESH C": {"to": "pradeesh.c@hangyo.in", "cc": []},
@@ -89,11 +89,11 @@ EMAIL_MAP = {
     "AKHILRAJ K": {"to": "akhilrajk2507@gmail.com", "cc": []},
     "KISHOR KASHIRAM JADHAV": {"to": "jadhavkishork777@gmail.com", "cc": []},
     "VUGGINA RAJESH": {"to": "rajesh.vuggina@gmail.com", "cc": []},
-    "Vacant Kolhapur": {"to": "venkatesh.pattar@hangyo.in", "cc": []},
+    "Vacant Kolhapur": {"to": "venkatesh.pattar@hangyo.in", "cc": ["benjamin@hangyo.in","nishnu.nk@hangyo.in"]},
     "VACANT Konkan Maharashtra": {"to": "venkatesh.pattar@hangyo.in", "cc": []},
     "Prashanth Jois": {"to": "prashanth.jois@hangyo.in", "cc": []},
     "SANTHOSH KUMAR K G": {"to": "santhosh.kumar@hangyo.in", "cc": []},
-    "SHRIDHAR SHETTI": {"to": "shridharshetti@hangyo.in", "cc": []},
+    "SHRIDHAR SHETTI": {"to": "shridharshetti@hangyo.in", "cc": ["benjamin@hangyo.in","nishnu.nk@hangyo.in"]},
     "SHOPAN BABU T": {"to": "shopan.babu@hangyo.in", "cc": []},
     "SANTOSH SHASHIKANT KALE": {"to": "sudhirkapote@hangyo.in", "cc": []},
 }
@@ -599,4 +599,5 @@ if st.button("📤 Bulk Send to All ASMs"):
                 log.append(f"{asm}: ❌ Error {e}")
             prog.progress(i/len(asms))
         st.text_area("Bulk Send Log", "\n".join(log), height=280)
+
 
