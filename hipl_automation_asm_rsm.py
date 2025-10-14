@@ -63,8 +63,8 @@ EMAIL_MAP = {
     "CHANDA KARUNAKAR": {"to": "c.karunakar@hangyo.in", "cc": []},
     "V MADHUSUDHANA RAO": {"to": "madhusudhana.rao@hangyo.in", "cc": []},
     "MUNAGALA VENKATAIAH": {"to": "mungalavenkataiah@hangyo.in", "cc": []},
-    "VAKA RAJANIKANTH": {"to": "rajanikanth.v@hangyo.in", "cc": []},
-    "BANDLA RUPESH": {"to": "b.rupesh@hangyo.in", "cc": []},
+    "VAKA RAJANIKANTH": {"to": "rajanikanth.v@hangyo.in", "cc": ["rajasekhar.reddy@hangyo.in","nishnu.nk@hangyo.in", "sankeernpai@hangyo.in"]},
+    "BANDLA RUPESH": {"to": "b.rupesh@hangyo.in", "cc": ["rajasekhar.reddy@hangyo.in","nishnu.nk@hangyo.in", "sankeernpai@hangyo.in"]},
     "TUMMALA VEMAIAH": {"to": "tummala.vemaiah@hangyo.in", "cc": []},
     "GIRISH ANAND KAMAT": {"to": "girishkamathangy@gmail.com", "cc": []},
     "TANGATURI VENKATA MASTHAN": {"to": "tv.masthan@hangyo.in", "cc": []},
@@ -599,5 +599,6 @@ if st.button("📤 Bulk Send to All ASMs"):
                 log.append(f"{asm}: ❌ Error {e}")
             prog.progress(i/len(asms))
         st.text_area("Bulk Send Log", "\n".join(log), height=280)
+
 
 
