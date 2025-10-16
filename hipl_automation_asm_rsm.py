@@ -19,8 +19,8 @@ GRAPH_API_ENDPOINT = f"https://graph.microsoft.com/v1.0/users/{SENDER_EMAIL}/sen
 LOGO_PATH = "hangyo_logo.png"
 
 EMAIL_MAP = {
-    "VIJAYA SEKARAN D": {"to": "vijay.sekaran@hangyo.in", "cc": ["benjamin@hangyo.in","nishnu.nk@hangyo.in"]},
-    "PRABHAKARAN D": {"to": "prabhakaran.d@hangyo.in", "cc": ["benjamin@hangyo.in","nishnu.nk@hangyo.in"]},
+    "VIJAYA SEKARAN D": {"to": "vijay.sekaran@hangyo.in", "cc": ["benjamin@hangyo.in","nishnu.nk@hangyo.in","dinesh.shenoy@hangyo.in"]},
+    "PRABHAKARAN D": {"to": "prabhakaran.d@hangyo.in", "cc": ["benjamin@hangyo.in","nishnu.nk@hangyo.in","dinesh.shenoy@hangyo.in"]},
     "SASIKUMAR M": {"to": "sasikumar.m@hangyo.in", "cc": ["benjamin@hangyo.in","nishnu.nk@hangyo.in"]},
     "SRINIVASAN RAVIKUMAR": {"to": "s.ravikumar@hangyo.in", "cc": ["benjamin@hangyo.in","nishnu.nk@hangyo.in"]},
     "SAKTHIVEL R": {"to": "sakthivel.r@hangyo.in", "cc": ["benjamin@hangyo.in","nishnu.nk@hangyo.in"]},
@@ -62,7 +62,7 @@ EMAIL_MAP = {
     "PRADEESH C": {"to": "pradeesh.c@hangyo.in", "cc": []},
     "CHANDA KARUNAKAR": {"to": "c.karunakar@hangyo.in", "cc": []},
     "V MADHUSUDHANA RAO": {"to": "madhusudhana.rao@hangyo.in", "cc": []},
-    "MUNAGALA VENKATAIAH": {"to": "mungalavenkataiah@hangyo.in", "cc": []},
+    "MUNAGALA VENKATAIAH": {"to": "mungalavenkataiah@hangyo.in", "cc": ["dinesh.shenoy@hangyo.in"]},
     "VAKA RAJANIKANTH": {"to": "rajanikanth.v@hangyo.in", "cc": ["rajasekhar.reddy@hangyo.in","nishnu.nk@hangyo.in", "sankeernpai@hangyo.in"]},
     "BANDLA RUPESH": {"to": "b.rupesh@hangyo.in", "cc": ["rajasekhar.reddy@hangyo.in","nishnu.nk@hangyo.in", "sankeernpai@hangyo.in"]},
     "TUMMALA VEMAIAH": {"to": "tummala.vemaiah@hangyo.in", "cc": []},
@@ -599,6 +599,7 @@ if st.button("📤 Bulk Send to All ASMs"):
                 log.append(f"{asm}: ❌ Error {e}")
             prog.progress(i/len(asms))
         st.text_area("Bulk Send Log", "\n".join(log), height=280)
+
 
 
 
